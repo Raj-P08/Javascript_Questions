@@ -28,11 +28,18 @@ const findLongestWord = (str) => {
   if (str.trim().length === 0) return false;
 
   const words = str.split(" ");
-  words.sort((a, b) => b.length - a.length);
+  //   words.sort((a, b) => b.length - a.length);
 
-  // Sort the words in ascending order of length
-  console.log(words);
+  //   console.log(words);
 
-  return words[0];
+  //   return words[0];
+
+  //   ! Other way to find the longest word
+  return words.reduce(
+    (acc, currWord) => (currWord.length > acc.length ? currWord : acc),
+    ""
+  );
+  // 2. Use the reduce() method to iterate through the array of words and find the longest word.
+  // 3. Return the longest word found.
 };
 console.log(findLongestWord("Hii there! How are you?"));
