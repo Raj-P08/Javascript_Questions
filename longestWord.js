@@ -1,15 +1,3 @@
-// function findLongestWord(sentence) {
-//     if (!sentence) return "";
-
-//     const words = sentence.split(/\s+/);
-//     return words.reduce((longest, word) => word.length > longest.length ? word : longest, "");
-// }
-
-// // Example usage:
-// const sentence = "The quick brown fox jumps over the lazy dog";
-// const longestWord = findLongestWord(sentence);
-// console.log(`The longest word is: ${longestWord}`); // Output: "jumps"
-
 // Programming Question: Longest word in a String
 // write a function find longest word that takes a string as input and returns the longest word in the string. If there are multiple longest word, return the first one encountered,
 
