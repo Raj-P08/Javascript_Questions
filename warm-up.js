@@ -1,0 +1,57 @@
+// 1. Get the last element of the array 
+
+// function getLastElement(arr){
+//     return arr[arr.length-1];
+// }
+
+// let arr = [1,2,3,5,9,10];
+// let result = getLastElement(arr);
+// console.log(result);
+
+
+// let result = arr[arr.length-1]
+// console.log(arr.length-1);
+// console.log(result);
+
+
+// 2. Generate the random no. between 0 to 18
+
+// let number = Math.floor(Math.random()*19);
+// console.log(number);
+
+// 3.  get the strings from mixed array
+
+// let array = [1,8,"hello","ar",6,8];
+
+// let res  = array.filter((element)=>{
+//     if(typeof element === "string"){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// })
+// console.log(res);
+
+
+// 4. Combine the two array
+
+// let a1 = [1,8,9,15];
+// let a2 = [4,5,7];
+// let a3 = a1.concat(a2);
+// console.log(a3);
+// console.log(a3.length);
+
+// 5. Find the maximum no. of the array
+
+// let ar = [45,18,7,93];
+// let res = Math.max(...ar);  // the math method takes only numbers not the array or object
+// console.log(res);
+
+// 6. find the length of the  object
+
+// let obj = {
+//     name:"blue Diamond",
+//     id:1
+// }
+// console.log(Object.keys(obj).length);
