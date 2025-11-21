@@ -58,6 +58,24 @@
 
 // 6. filter the positive numbers from an array
 
-let ar = [4,8,-10,8,-96];
-let filteredArray = ar.filter((e)=>e>0);
-console.log(filteredArray);
+// let ar = [4,8,-10,8,-96];
+// let filteredArray = ar.filter((e)=>e>0);
+// console.log(filteredArray);
+
+// Q7:
+const employees = [
+  { name: "Amit",   salary: 25000, active: true },
+  { name: "Rohit",  salary: 18000, active: false },
+  { name: "Sara",   salary: 30000, active: true },
+  { name: "Neha",   salary: 22000, active: true },
+  { name: "Vikram", salary: 15000, active: false },
+];
+
+// New array banao jisme sirf woh employees hon:
+// 1) active === true
+// 2) salary >= 22000
+
+// Expected: Amit, Sara, Neha wale objects
+
+const emp = employees.filter((e)=>e.active==true && e.salary >=22000);
+console.log(emp);
