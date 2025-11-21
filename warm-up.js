@@ -55,3 +55,9 @@
 //     id:1
 // }
 // console.log(Object.keys(obj).length);
+
+// 6. filter the positive numbers from an array
+
+let ar = [4,8,-10,8,-96];
+let filteredArray = ar.filter((e)=>e>0);
+console.log(filteredArray);
