@@ -63,13 +63,13 @@
 // console.log(filteredArray);
 
 // Q7:
-const employees = [
-  { name: "Amit",   salary: 25000, active: true },
-  { name: "Rohit",  salary: 18000, active: false },
-  { name: "Sara",   salary: 30000, active: true },
-  { name: "Neha",   salary: 22000, active: true },
-  { name: "Vikram", salary: 15000, active: false },
-];
+// const employees = [
+//   { name: "Amit",   salary: 25000, active: true },
+//   { name: "Rohit",  salary: 18000, active: false },
+//   { name: "Sara",   salary: 30000, active: true },
+//   { name: "Neha",   salary: 22000, active: true },
+//   { name: "Vikram", salary: 15000, active: false },
+// ];
 
 // New array banao jisme sirf woh employees hon:
 // 1) active === true
@@ -77,5 +77,21 @@ const employees = [
 
 // Expected: Amit, Sara, Neha wale objects
 
-const emp = employees.filter((e)=>e.active==true && e.salary >=22000);
-console.log(emp);
+// const emp = employees.filter((e)=>e.active==true && e.salary >=22000);
+// console.log(emp);
+
+// Q. 8 let an array and return the new array with uppercase strings
+
+// let lowerArray = ["aalu","gobhi","shimla"];
+
+// const upperArray = lowerArray.map((ele)=>{
+//   return ele.toUpperCase();
+// })
+
+// console.log(upperArray);
+
+//  Q 9. return an array with double the element 
+
+let a = [7,6,9,10,45];
+const doubleElement = a.map((num)=>num*2);
+console.log(doubleElement);
