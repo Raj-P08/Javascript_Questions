@@ -98,12 +98,24 @@
 
 // Q 10. Given an array make this array flatten
 
-let b = [8,4,9,[76,9,8],"blue"];
+// let b = [8,4,9,[76,9,8],"blue"];
 
 // const flattenArray = b.flat(1);
 // console.log(flattenArray);
 
 //      OR
 
-const flattenArray = b.splice(3,1,...b[3]);
-console.log(flattenArray);
+// const flattenArray = b.splice(3,1,...b[3]);
+// console.log(flattenArray);
+
+// Q 11.
+// Given array may contain duplicates,
+// new array banao jisme unique & even numbers sirf hon.
+
+const arr = [2, 4, 4, 6, 8, 8, 10, 10, 3, 5, 7];
+
+// Expected: [2, 4, 6, 8, 10]
+// Edge case: duplicate values, odd numbers mixed
+
+const uniqueArr = arr.filter((ele,index,ar)=>ele % 2==0 && ar.indexOf(ele) == index)
+console.log(uniqueArr);
