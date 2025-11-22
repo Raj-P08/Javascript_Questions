@@ -92,6 +92,18 @@
 
 //  Q 9. return an array with double the element 
 
-let a = [7,6,9,10,45];
-const doubleElement = a.map((num)=>num*2);
-console.log(doubleElement);
+// let a = [7,6,9,10,45];
+// const doubleElement = a.map((num)=>num*2);
+// console.log(doubleElement);
+
+// Q 10. Given an array make this array flatten
+
+let b = [8,4,9,[76,9,8],"blue"];
+
+// const flattenArray = b.flat(1);
+// console.log(flattenArray);
+
+//      OR
+
+const flattenArray = b.splice(3,1,...b[3]);
+console.log(flattenArray);
