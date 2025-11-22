@@ -112,10 +112,11 @@
 // Given array may contain duplicates,
 // new array banao jisme unique & even numbers sirf hon.
 
-const arr = [2, 4, 4, 6, 8, 8, 10, 10, 3, 5, 7];
+// const arr = [2, 4, 4, 6, 8, 8, 10, 10, 3, 5, 7];
 
 // Expected: [2, 4, 6, 8, 10]
 // Edge case: duplicate values, odd numbers mixed
 
-const uniqueArr = arr.filter((ele,index,ar)=>ele % 2==0 && ar.indexOf(ele) == index)
-console.log(uniqueArr);
+// const uniqueArr = arr.filter((ele,index,ar)=>ele % 2==0 && ar.indexOf(ele) == index)
+// console.log(uniqueArr);
+
