@@ -120,3 +120,19 @@
 // const uniqueArr = arr.filter((ele,index,ar)=>ele % 2==0 && ar.indexOf(ele) == index)
 // console.log(uniqueArr);
 
+
+// Q. 11 Return a new array with square of each element
+
+// let ar = [5,7,2,9];
+// const newArr = ar.map((ele)=>ele*ele);
+// console.log(newArr);
+
+// Q. Reverse an array with manual
+
+let arr = [9,8,1,64,45];
+const reverseArr = [];
+for (let i = arr.length-1; i >= 0; i--) {
+    reverseArr.push(arr[i]);
+}
+console.log(reverseArr);
+
