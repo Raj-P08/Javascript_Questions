@@ -127,12 +127,26 @@
 // const newArr = ar.map((ele)=>ele*ele);
 // console.log(newArr);
 
-// Q. Reverse an array with manual
+// Q. 12 Reverse an array with manual
 
-let arr = [9,8,1,64,45];
-const reverseArr = [];
-for (let i = arr.length-1; i >= 0; i--) {
-    reverseArr.push(arr[i]);
-}
-console.log(reverseArr);
+// let arr = [9,8,1,64,45];
+// const reverseArr = [];
+// for (let i = arr.length-1; i >= 0; i--) {
+//     reverseArr.push(arr[i]);
+// }
+// console.log(reverseArr);
+
+// Q. 13 
+
+let ar = [7,8,5,10,18,95,46]
+const revArr = ar.map((ele,index, array)=>{
+//     // console.log(ele);
+//     // console.log(index);
+//     // console.log(array);
+    return array.pop()
+})
+
+console.log(revArr);
+
+// console.log(ar.pop());
 
