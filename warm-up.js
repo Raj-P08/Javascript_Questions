@@ -139,14 +139,11 @@
 // Q. 13 
 
 let ar = [7,8,5,10,18,95,46]
-const revArr = ar.map((ele,index, array)=>{
-//     // console.log(ele);
-//     // console.log(index);
-//     // console.log(array);
-    return array.pop()
+const revArr = ar.map((_,index, array)=>{
+    return array[array.length-1 - index];
 })
 
 console.log(revArr);
 
-// console.log(ar.pop());
+
 
