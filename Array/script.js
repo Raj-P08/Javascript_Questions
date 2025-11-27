@@ -54,3 +54,7 @@
 
 let arr = [8,10,4,1,19];
 console.log(arr.sort((a,b)=>a-b));
+
+// descending
+
+console.log(arr.sort((a,b)=>b-a));
