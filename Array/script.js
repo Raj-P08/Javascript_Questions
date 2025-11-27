@@ -48,3 +48,9 @@
 // let arr = [15,8,9,15,6,8,10,6,4,45,90];
 // let unique = Array.from(new Set(arr));
 // console.log(unique);
+
+// Q.5 sort the array
+//  sort the array in ascending order
+
+let arr = [8,10,4,1,19];
+console.log(arr.sort((a,b)=>a-b));
