@@ -66,3 +66,27 @@ let array = [8,4,6,2,15,98,1];
 const sortedArray = array.sort((a,b)=>a-b);
 const min = sortedArray[0];
 const max = sortedArray[sortedArray.length - 1];
+
+console.log(`Minimum value is: ${min}`);
+console.log(`Maximum value is: ${max}`);
+
+// alternative method
+const max1 = Math.max(...array);
+const min1 = Math.min(...array);
+console.log(`Maximum value is: ${max1}`);
+console.log(`Minimum value is: ${min1}`);
+
+// Q.7 Sum of Elements
+// Calculate the sum of all elements in an array of numbers.
+
+let numbers = [5,10,15,20,25];
+let sum = 0;
+for(let i = 0;i<numbers.length;i++){
+    sum += numbers[i];
+}
+console.log(`The sum of all elements is: ${sum}`);
+
+// alternative method
+const total = numbers.reduce((acc, curr) => acc + curr, 0);
+console.log(`The sum of all elements is: ${total}`);
+
