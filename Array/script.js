@@ -90,3 +90,17 @@ console.log(`The sum of all elements is: ${sum}`);
 const total = numbers.reduce((acc, curr) => acc + curr, 0);
 console.log(`The sum of all elements is: ${total}`);
 
+// Q.8 Average of Elements
+// Calculate the average of all elements in an array of numbers.
+let nums = [10,20,30,40,50];
+let totalSum = 0;
+for(let i = 0;i<nums.length;i++){
+    totalSum += nums[i];
+}
+let average = totalSum / nums.length;
+console.log(`The average of all elements is: ${average}`);
+
+// alternative method
+const sumOfElements = nums.reduce((acc, curr) => acc + curr, 0);
+const avg = sumOfElements / nums.length;
+console.log(`The average of all elements is: ${avg}`);
