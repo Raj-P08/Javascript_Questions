@@ -58,3 +58,11 @@ console.log(arr.sort((a,b)=>a-b));
 // descending
 
 console.log(arr.sort((a,b)=>b-a));
+
+// Q.6 Find Maximum and Minimum
+// Find the maximum and minimum values in an array of numbers.
+
+let array = [8,4,6,2,15,98,1];
+const sortedArray = array.sort((a,b)=>a-b);
+const min = sortedArray[0];
+const max = sortedArray[sortedArray.length - 1];
