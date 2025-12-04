@@ -104,3 +104,21 @@ console.log(`The average of all elements is: ${average}`);
 const sumOfElements = nums.reduce((acc, curr) => acc + curr, 0);
 const avg = sumOfElements / nums.length;
 console.log(`The average of all elements is: ${avg}`);
+
+
+// ***********
+let ar = [1,2,6,4,8,9]
+let k = 3;
+
+let tempArr = [];
+for(let i = k+1; i<ar.length;i++){
+    tempArr.push(ar[i]);
+}
+
+console.log(tempArr);
+
+for(let i= 0;i<=k; i++){
+    tempArr.push(ar[i]);
+}
+
+console.log(tempArr);
