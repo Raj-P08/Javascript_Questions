@@ -107,6 +107,9 @@ console.log(`The average of all elements is: ${avg}`);
 
 
 // ***********
+// Rotate Array
+// Rotate an array of numbers to the right by k steps.
+
 let ar = [1,2,6,4,8,9]
 let k = 3;
 
