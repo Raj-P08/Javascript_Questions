@@ -111,9 +111,15 @@ console.log(`The average of all elements is: ${avg}`);
 // Rotate an array of numbers to the right by k steps.
 
 let ar = [1,2,6,4,8,9]
-let k = 3;
+let k = 8;
 
 let tempArr = [];
+
+if(k>ar.length){
+    k = k % ar.length;
+    console.log(k);
+}
+
 for(let i = k+1; i<ar.length;i++){
     tempArr.push(ar[i]);
 }
