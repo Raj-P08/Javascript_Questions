@@ -135,13 +135,21 @@ console.log(`The average of all elements is: ${avg}`);
 // Q. 10.  Split into Chunks
 // Split an array into chunks of size k (last chunk can be smaller).
 
-let ar=[1,2,3,4,6,5,9,8,7,10];
+// let ar=[1,2,3,4,6,5,9,8,7,10];
 
-let k = 3;
-let temp = [];
-for(let i = 0; i<ar.length; i=k+i){
-   let newA =  ar.slice(i,i+k);
-   temp.push(newA);
-}
+// let k = 3;
+// let temp = [];
+// for(let i = 0; i<ar.length; i=k+i){
+//    let newA =  ar.slice(i,i+k);
+//    temp.push(newA);
+// }
 
-console.log(temp);
+// console.log(temp);
+
+// ****************
+// Q. 11. Flatten 2D Array
+// Flatten a 2D array (one level deep) into a 1D array.
+
+let ar = [4,5,6,["bdit",8,9, ["rj",79]],10, [45,69]];
+let result = ar.flat();
+console.log(result);
