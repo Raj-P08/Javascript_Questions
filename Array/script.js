@@ -106,28 +106,42 @@ const avg = sumOfElements / nums.length;
 console.log(`The average of all elements is: ${avg}`);
 
 
-// ***********
-// Rotate Array
+//  ***********
+// Q. 9. Rotate Array
 // Rotate an array of numbers to the right by k steps.
 
-let ar = [1,2,6,4,8,9]
-let k = 8;
+// let ar = [1,2,6,4,8,9]
+// let k = 8;
 
-let tempArr = [];
+// let tempArr = [];
 
-if(k>ar.length){
-    k = k % ar.length;
-    console.log(k);
+// if(k>ar.length){
+//     k = k % ar.length;
+//     console.log(k);
+// }
+
+// for(let i = k+1; i<ar.length;i++){
+//     tempArr.push(ar[i]);
+// }
+
+// console.log(tempArr);
+
+// for(let i= 0;i<=k; i++){
+//     tempArr.push(ar[i]);
+// }
+
+// console.log(tempArr);
+
+// Q. 10.  Split into Chunks
+// Split an array into chunks of size k (last chunk can be smaller).
+
+let ar=[1,2,3,4,6,5,9,8,7,10];
+
+let k = 3;
+let temp = [];
+for(let i = 0; i<ar.length; i=k+i){
+   let newA =  ar.slice(i,i+k);
+   temp.push(newA);
 }
 
-for(let i = k+1; i<ar.length;i++){
-    tempArr.push(ar[i]);
-}
-
-console.log(tempArr);
-
-for(let i= 0;i<=k; i++){
-    tempArr.push(ar[i]);
-}
-
-console.log(tempArr);
+console.log(temp);
