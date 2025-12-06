@@ -153,3 +153,6 @@ console.log(`The average of all elements is: ${avg}`);
 let ar = [4,5,6,["bdit",8,9, ["rj",79]],10, [45,69]];
 let result = ar.flat();
 console.log(result);
+
+
+https://www.perplexity.ai/search/hey-gpt-BTlNfVydT3KV4Lep03eIgg#7
