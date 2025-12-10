@@ -151,8 +151,30 @@ console.log(`The average of all elements is: ${avg}`);
 // Flatten a 2D array (one level deep) into a 1D array.
 
 let ar = [4,5,6,["bdit",8,9, ["rj",79]],10, [45,69]];
-let result = ar.flat();
+
+// If there are nested array and we have to flat the array then in one step we can use "Infinity" parameter in the flat method.
+let result = ar.flat(Infinity);
 console.log(result);
 
+// Q. 12.Split Even and Odd
+// Given an array of numbers, split it into two arrays: one with even and one with odd
+// numbers.
 
-https://www.perplexity.ai/search/hey-gpt-BTlNfVydT3KV4Lep03eIgg#7
+let arrr = [10,6,8,5,9,3,17,2];
+let even = [];
+let odd = [];
+for(let i = 0; i<arrr.length; i++){
+    if(arrr[i] % 2 === 0 ){
+        even.push(arrr[i])
+    }else{
+        odd.push(arrr[i])
+    }
+}
+console.log(even);
+console.log(odd);
+
+
+const even1 = arrr.filter((e)=>e%2===0)
+console.log(even1);
+
+// https://www.perplexity.ai/search/hey-gpt-BTlNfVydT3KV4Lep03eIgg#7
