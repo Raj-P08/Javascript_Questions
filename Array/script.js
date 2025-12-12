@@ -180,24 +180,30 @@ console.log(`The average of all elements is: ${avg}`);
 
 // Working with Object Arrays ****************
 
-//  Filter by City
-// Given an array of user objects 
-// { name, age, city }, return all users who live in "Mumbai".
+// ! Filter by City
+// * 1. Given an array of user objects 
+// * { name, age, city }, return all users who live in "Mumbai".
 
-// let ar = [
-//     {name:"Raj",age:22,city:"mumbai"},
-//     {name:"Ajay",age:25,city:"Mumbai"},
-//     {name:"Ani",age:20,city:"Kolkata"},
-//     {name:"Mayank",age:22,city:"Thane"},
-// ];
+let ar = [
+    {name:"Raj",age:22,city:"mumbai"},
+    {name:"Ajay",age:25,city:"Mumbai"},
+    {name:"Ani",age:20,city:"Kolkata"},
+    {name:"Mayank",age:22,city:"Thane"},
+];
 
 // const filterArray = ar.filter((e)=>e.city.toLowerCase()=="mumbai");
 // console.log(filterArray);
 
 
+// * 2.  Extract Names
+// * From the same users array, return only the name values in a new array.
 
 
 
+
+
+
+// https://www.perplexity.ai/spaces/new-space-NWqkHmKDQtOvQod2sbwV.Q#0
 
 
 // https://www.perplexity.ai/search/hey-gpt-BTlNfVydT3KV4Lep03eIgg#7
